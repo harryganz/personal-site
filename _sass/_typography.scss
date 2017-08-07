@@ -1,0 +1,46 @@
+$primary-color: #000;
+$secondary-color: #c40f3c;
+$link-color: #0f60c4;
+
+// Body text
+body {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+// Titles
+@mixin title-style($size, $color) {
+  color: $color;
+  font-size: $size;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+  @include title-style(3em, $primary-color);
+}
+h2, h3 {
+  @include title-style(1.5em, $secondary-color);
+}
+
+// Code Blocks
+pre {
+  border-radius: 3px;
+  padding: 1em;
+  background-color: #f6f8fa;
+  overflow: auto;
+}
+code {
+  width: 100%;
+  line-height: 1.125em;
+  font-family: "Ubuntu Mono";
+}
+
+// Links
+a {
+  color: $link-color;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    color: $secondary-color;
+  }
+}

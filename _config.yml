@@ -1,0 +1,14 @@
+title: Harry Ganz
+email: hganz@harryganz.com
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: redcarpet
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+redcarpet:
+    extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]

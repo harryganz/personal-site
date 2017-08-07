@@ -1,0 +1,15 @@
+$fonts-directory: '/fonts';
+@font-face {
+  font-family: 'Ubuntu Mono';
+  src: url('#{$fonts-directory}/Ubuntu_Mono/UbuntuMono-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('#{$fonts-directory}/Josephin_Sans/JosefinSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('#{$fonts-directory}/Open_Sans/OpenSans-Regular.ttf');
+}
