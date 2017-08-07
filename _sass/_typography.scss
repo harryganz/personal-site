@@ -9,17 +9,17 @@ body {
 }
 
 // Titles
-@mixin title-style($size, $color) {
-  color: $color;
-  font-size: $size;
-  font-family: 'Josefin Sans', sans-serif;
-}
-
 h1 {
-  @include title-style(3em, $primary-color);
+  font-size: 3em;
+  color: $primary-color;
 }
-h2, h3 {
-  @include title-style(1.5em, $secondary-color);
+h2 {
+  font-size: 1.5em;
+  color: $secondary-color;
+}
+h3 {
+  font-size: 1em;
+  color: $primary-color;
 }
 
 // Code Blocks

@@ -5,11 +5,6 @@ $fonts-directory: '/fonts';
 }
 
 @font-face {
-  font-family: 'Josefin Sans';
-  src: url('#{$fonts-directory}/Josephin_Sans/JosefinSans-Regular.ttf');
-}
-
-@font-face {
   font-family: 'Open Sans';
   src: url('#{$fonts-directory}/Open_Sans/OpenSans-Regular.ttf');
 }

@@ -7,22 +7,21 @@ title: Home
 
 ----
 
-### Subtitle
+## Subtitle
 
-|  V1 |  V2 |
+### Table
+
+|  Variable 1 |  Variable 2 |
 | ---- | ---- |
-| C1  | C2  |
+| Something here number one  | Something here number 2  |
+| Yet another row | Some more data |
 
+### Code Block
 
 ```javascript
+// Here is a long line that might sometimes happen and needs to break, although it should usually be avoided
 function() {
   console.log("Something")
-}
-```
-
-```golang
-func SomeFunc() string {
-  return "Hi"
 }
 ```
 
@@ -31,7 +30,7 @@ func SomeFunc() string {
 1. Item 1
 2. Item 2
 
-**Unordered List**
+### Unordered List
 
 * Item 1
 * Item 2
