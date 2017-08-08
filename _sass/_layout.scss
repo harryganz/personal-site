@@ -1,3 +1,16 @@
+$margin-border: 2px solid #ddd;
+
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper {
+  flex: 1 0 auto;
+}
+
 .container {
   margin: 0 1em;
   @media (min-width: 48em) {
@@ -7,6 +20,11 @@
 }
 
 #header {
-  border-bottom: 2px solid #ddd;
+  border-bottom: $margin-border;
   margin-bottom: 1.5em;
+}
+
+#footer {
+  border-top: $margin-border;
+  margin-top: 1.5em;
 }
