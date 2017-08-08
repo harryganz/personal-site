@@ -3,10 +3,6 @@ layout: default
 title: Home
 ---
 
-# Title
-
-----
-
 ## Subtitle
 
 ### Table
