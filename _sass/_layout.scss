@@ -4,6 +4,7 @@ $margin-border: 2px solid #ddd;
 // Document wide styles
 html, body {
   height: 100%;
+  margin: 0;
 }
 body {
   display: flex;
@@ -47,6 +48,13 @@ body {
 }
 
 // Nav styles
+#nav-icon {
+  font-size: 1.5em;
+  height: 1.5em;
+  @media (min-width: $sm-screen) {
+    display: none;
+  }
+}
 ul.nav {
   width: 100%;
   padding: 0;
@@ -55,7 +63,7 @@ ul.nav {
 
 li.nav {
   width: 100%;
-  padding: 0.25em;
+  padding: 0.25em 0.5em 0.25em 0;
   list-style: none;
   @media (min-width: $sm-screen) {
     display: inline-block;

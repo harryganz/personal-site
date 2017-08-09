@@ -1,6 +1,7 @@
 <h1>Harry Ganz</h1>
-<nav class="row">
-  <ul class="nav">
+<nav>
+  <div id="nav-icon"><i class="fa fa-bars"></i></div>
+  <ul id="nav-bar" class="nav">
   {% for page in site.pages %}
     {% if page.layout == "page" %}
       <li class="nav"><a href="{{page.url}}" class="unstyled">{{page.title}}</a></li>
