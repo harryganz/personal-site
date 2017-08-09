@@ -1,3 +1,5 @@
+@import 'variables';
+
 $margin-border: 2px solid #ddd;
 // Document wide styles
 html, body {
@@ -42,4 +44,25 @@ body {
 #footer {
   border-top: $margin-border;
   margin-top: 1.5em;
+}
+
+// Nav styles
+ul.nav {
+  width: 100%;
+  padding: 0;
+  margin: 0.25em 0em;
+}
+
+li.nav {
+  width: 100%;
+  padding: 0.25em;
+  list-style: none;
+  @media (min-width: $sm-screen) {
+    display: inline-block;
+    width: auto;
+  }
+  & > a {
+    display: inline-block;
+    width: 100%;
+  }
 }
