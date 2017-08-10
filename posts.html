@@ -5,3 +5,19 @@ title: Posts
 ---
 
 <h2>Posts Archive</h2>
+
+<ul class="post-list">
+    {% for post in site.posts %}
+        <li class="post-item">
+            <div>
+                <a href="{{post.url}}">{{post.title}}</a>
+            </div>
+            <div>
+                Published: {{post.date | date: "%a, %b %d, %y"}}
+            </div>
+            <div>
+                Categories: {{post.categories | join: ", " | default: "None"}}
+            </div>
+        </li>
+    {% endfor %}
+</ul>
