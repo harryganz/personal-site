@@ -83,17 +83,25 @@ li.nav {
   }
 }
 
-// Post styles
-.post-list {
-  list-style: none;
+// Post archive styling
+.posts-container {
+  padding: 0 1em;
 }
-.post-item {
-  &:nth-child(2n-1) {
+.card {
+  padding: 0.25em;
+  border-radius: 3px;
+  border-bottom: 2px solid #ddd;
+  .post-title {
+    color: $secondary-color;
+  }
+  .post-content {
+    padding: 0.25em 1em;
+    font-size: 0.8em;
+  }
+  &:hover {
     background-color: $odd-row-bg;
   }
-  & > * {
-    display: inline-block;
-    margin: 0.5em 1em;
+  &:last-child {
+    border-bottom: none;
   }
-  border-radius: 3px;
 }
