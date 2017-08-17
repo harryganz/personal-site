@@ -24,3 +24,4 @@ defaults:
     values:
       layout: post
       permalink: posts/:title.html
+      author: Harry Ganz

@@ -1,7 +1,4 @@
 ---
-layout: post
-title: Hello World
-categories: ["Hello", "World"]
 ---
 
 ### Subheading
