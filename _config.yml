@@ -14,3 +14,14 @@ sass:
   style: compressed
 redcarpet:
     extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      permalink: posts/:title.html
+      author: Harry Ganz

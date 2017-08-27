@@ -23,6 +23,14 @@ h3 {
   color: $primary-color;
 }
 
+// Captions
+.caption {
+  font-style: italic;
+}
+.small {
+  font-size: 0.8em;
+}
+
 // Code Blocks
 pre {
   border-radius: 3px;
