@@ -1,0 +1,10 @@
+---
+layout: page
+title: Home
+---
+{% assign newest_post = site.posts[0] %}
+<div class="featured-posts">
+    <h2 class="featured-title">{{newest_post.title}}</h2>
+    <p class="featured-date">{{newest_post.date | date: "%B %d, %Y"}}</p>
+    <div class="featured-content">{{newest_post.content}}</div>
+</div>
