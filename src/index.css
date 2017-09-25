@@ -46,3 +46,19 @@ h3 {
 .caption {
 	font-style: italic;
 }
+
+a.none {
+ text-decoration: none;
+ color: inherit;
+}
+
+a.none:hover {
+ text-decoration: none;
+ color: inherit;
+}
+
+a.none:active {
+ text-decoration: none;
+ color: inherit;
+}
+
