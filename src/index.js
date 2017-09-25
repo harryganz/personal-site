@@ -6,13 +6,16 @@ import store, {history} from 'store'
 import registerServiceWorker from './registerServiceWorker';
 
 import App from 'components/App';
+import Home from 'components/Home';
 import './index.css';
 
 ReactDOM.render(
     <Provider store={store}>
       <Router history={history}>
-        <Route path="/" component={App}>
-        </Route>
+        <div>
+          <Route exact path="/" component={App}/>
+          <Route exact path="/" component={Home} />
+        </div>
       </Router>
     </Provider>,
     document.getElementById('root'));

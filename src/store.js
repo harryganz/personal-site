@@ -15,5 +15,5 @@ const store = createStore(
   applyMiddleware(middleware)
 );
 
-exports.history = history;
+export { history };
 export default store;
