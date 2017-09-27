@@ -1,29 +1,16 @@
 import React from 'react';
-import { push } from 'react-router-redux';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
 
-import LinkTo from 'components/LinkTo';
+import NavItem from 'components/NavItem';
 
 import 'components/Nav.css';
 
-function Nav({location, push}) {
+function Nav() {
   return (
       <ul className="nav">
-        <li className={location === "/" ? "active" : ""}><LinkTo className="none" to="/">Home</LinkTo></li>
-        <li className={location === "/about" ? "active" : ""}><LinkTo className="none" to="/about">About</LinkTo></li>
+        <NavItem to="/">Home</NavItem>
+        <NavItem to="/about">About</NavItem>
       </ul>
     );
 }
 
-function mapStateToProps(state) {
-  return {
-    location: state.router.location.pathname
-  };
-}
-
-function mapDispatchToProps(dispatch) {
-  return bindActionCreators({ push }, dispatch);
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(Nav);
+export default Nav;

@@ -6,12 +6,3 @@
   font-weight: bold;
 }
 
-.nav li {
-  display: inline-block;
-  padding: 0.5em 0.75em;
-  border-radius: 4px 4px 0 0;
-}
-
-.active {
-  background-color: #ddd;
-}
