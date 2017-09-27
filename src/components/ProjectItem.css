@@ -1,3 +1,10 @@
+.project {
+	border: 2px solid #ddd;
+	padding: 8px;
+	width: 270px;
+	margin: 1em;
+}
+
 .crop {
 	width: 250px;
 	height: 250px;
@@ -8,4 +15,13 @@
 	height: auto;
 	width: 250px;
 }
+
+.project .github-link:hover {
+	color: #00f;
+}
+
+.project .github-link:active {
+	color: #00f;
+}
+
 

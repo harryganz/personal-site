@@ -9,7 +9,11 @@ function ProjectItem({project}) {
 						<img src={process.env.PUBLIC_URL + project.img_url} alt={project.title} />
 					</a>
 					<h3>{project.title}</h3>
-					<i className="fa fa-github-square" aria-hidden="true" /><a href={"https://github.com/" + project.github}>{project.github}</a>
+					<a className="none github-link" href={"https://github.com/" + project.github}>
+						<i className="fa fa-github-square" aria-hidden="true" />
+						&nbsp;
+						<span>Github</span>
+					</a>
 					<p className="project-description">{project.description}</p>
 				</div>
 			);

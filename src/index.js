@@ -10,6 +10,7 @@ import Home from 'components/Home';
 import About from 'components/About';
 
 import './index.css';
+import 'fonts/FontAwesome/css/font-awesome.css';
 
 ReactDOM.render(
     <Provider store={store}>
