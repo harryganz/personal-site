@@ -26,7 +26,6 @@ export function getProjects() {
 				if (!response.ok) {
 					throw new Error('There was a problem getting project data from server');
 				}
-				console.log(response.body);
 				response.json()
 					.then(data => dispatch(getProjectsSuccess(data)))
 					.catch(err => { throw new Error(err); });
