@@ -1,13 +1,30 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
+
+import actions from 'actions';
 
 import DefaultLayout from 'components/DefaultLayout';
+import ProjectGallery from 'components/ProjectGallery';
 
-function Home() {
-  return (
-      <DefaultLayout>
-        <h1>Here is some content</h1>
-      </DefaultLayout>
-    );
+class Home extends Component {	
+	constructor(props) {
+		super(props);
+		props.getProjects();
+	}
+
+	render() {
+		return (
+				<DefaultLayout>
+					<ProjectGallery />
+				</DefaultLayout>
+			);
+	}
 }
 
-export default Home;
+function mapDispatchToProps(dispatch) {
+	return bindActionCreators(actions, dispatch);
+}
+		
+
+export default connect(null, mapDispatchToProps)(Home);

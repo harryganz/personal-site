@@ -97,6 +97,7 @@ module.exports = {
       components: paths.appComponents,
       fonts: paths.appFonts,
       reducers: paths.appReducers,
+			actions: paths.appActions,
       store: paths.appStore,
     },
     plugins: [

@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { Route } from 'react-router';
 import { ConnectedRouter } from 'react-router-redux';
-import store, {history} from 'store'
+import store, { history } from 'store'
 import registerServiceWorker from './registerServiceWorker';
 
 import Home from 'components/Home';
 import About from 'components/About';
+
 import './index.css';
 
 ReactDOM.render(

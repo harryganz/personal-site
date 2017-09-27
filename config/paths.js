@@ -45,6 +45,7 @@ module.exports = {
   appPublic: resolveApp('public'),
   appComponents: resolveApp('src/components'),
   appReducers: resolveApp('src/reducers'),
+	appActions: resolveApp('src/actions'),
   appStore: resolveApp('src/store'),
   appFonts: resolveApp('src/fonts'),
   appHtml: resolveApp('public/index.html'),
