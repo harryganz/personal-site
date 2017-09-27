@@ -21,7 +21,6 @@ function ProjectGallery({projects}) {
 }
 
 function mapStateToProps(state) {
-	console.log(state.projects);
 	return { projects: state.projects.projects };
 }
 
