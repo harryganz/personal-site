@@ -2,3 +2,7 @@
 node_modules/
 # Build folder
 build/
+# ignore .out, .log
+*.out
+*.log
+
