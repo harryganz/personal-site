@@ -1,0 +1,64 @@
+@font-face {
+	font-family: Catamaran;
+	src: url("fonts/Catamaran/Catamaran-Regular.ttf");
+	font-weight: normal;
+	font-style: none;
+}
+
+@font-face {
+	font-family: Source-Sans;
+	src: url("fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf");
+	font-weight: normal;
+	font-style: none;
+}
+
+@font-face {
+	font-family: Source-Sans;
+	src: url("fonts/Source_Sans_Pro/SourceSansPro-Italic.ttf");
+	font-weight: normal;
+	font-style: italic;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+body {
+	font: 16px Source-Sans, sans-serif;
+}
+
+h1, h3 {
+	font-family: Catamaran, sans-serif;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+h3 {
+	font-size: 1.5em;
+	color: #DD4433;
+}
+
+.caption {
+	font-style: italic;
+}
+
+a.none {
+ text-decoration: none;
+ color: inherit;
+}
+
+a.none:hover {
+ text-decoration: none;
+ color: inherit;
+}
+
+a.none:active {
+ text-decoration: none;
+ color: inherit;
+}
+

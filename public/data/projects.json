@@ -1,0 +1,17 @@
+[
+	{
+		"title":"simonsays",
+	  "img_url":"/img/project_simonsays.jpg",
+		"url":"https://github.com/harryganz/simonsays",
+		"github":"harryganz/simonsays",
+		"description":"Simon says game written in Python for the Raspberry Pi"
+	},
+	{
+		"title":"rvcstats",
+		"img_url":"/img/project_rvcstats.jpg",
+		"url":"https://github.com/harryganz/rvcstats",
+		"github":"harryganz/rvcstats",
+		"description":"R package to compute summary statistics for South Florida Reef Visual Census"
+	}
+]	
+
