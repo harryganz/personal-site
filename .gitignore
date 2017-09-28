@@ -5,4 +5,5 @@ build/
 # ignore .out, .log
 *.out
 *.log
+npm-debug.*
 
