@@ -1,0 +1,9 @@
+langauge: node_js
+node_js:
+  - "iojs"
+  - "8"
+  - "7"
+before_script: 
+  - CI=true && npm test
+script:
+  - npm build
