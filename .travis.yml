@@ -5,7 +5,7 @@ node_js:
 before_script: 
   - CI=true && npm test
 script:
-  - npm build
+  - npm run build
 branches:
   only:
     - master
