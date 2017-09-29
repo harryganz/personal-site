@@ -1,4 +1,4 @@
-import projects from 'reducers/ProjectsReducer';
+import projects from 'reducers/projectsReducer';
 
 export default {
 	projects,
