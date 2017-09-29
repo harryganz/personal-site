@@ -8,12 +8,12 @@ import 'components/Header.css';
 function Header () {
   return (
         <div className='header'>
-					<div className="flex horizontal">
-						<div>
+					<div className="flex">
+						<div className="flex-grow">
 							<h1>Harry Ganz</h1>
 							<h3>Web Developer | Programmer</h3>
 						</div>
-						<ContactInfo email="hganz@harryganz.com" phone="(203) 357-5099" github="harryganz" />
+						<ContactInfo email="hganz@harryganz.com" phone="203-357-5099" github="harryganz" />
 					</div>
 					<Nav />
         </div>

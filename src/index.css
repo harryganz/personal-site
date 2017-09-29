@@ -30,6 +30,16 @@ body {
 	font: 16px Source-Sans, sans-serif;
 }
 
+.flex {
+	display: flex;
+	width: 100%;
+}
+
+.flex-grow {
+	flex-grow: 1;
+	flex-shrink: 0;
+}
+
 h1, h3 {
 	font-family: Catamaran, sans-serif;
 }
@@ -45,6 +55,10 @@ h3 {
 
 .caption {
 	font-style: italic;
+}
+
+.no-wrap {
+	white-space: nowrap;
 }
 
 a {
