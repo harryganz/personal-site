@@ -1,11 +1,11 @@
 import React from 'react';
 
-function ContactInfo({info}) {
+function ContactInfo({phone, email, github}) {
     return (
         <div className="contact-info">
-            <p><i className="fa fa-phone" /> {info.phone}</p>
-            <p><i className="fa fa-email" /> {info.email}</p>
-            <p><i className="fa fa-github" /> {info.github}</p>
+            <p><a href={`tel:#{phone}`}><i className="fa fa-phone" aria-hidden="true" /> {phone}</a></p>
+            <p><i className="fa fa-envelope" aria-hidden="true" /> {email}</p>
+            <p><i className="fa fa-github" aria-hidden="true" /> {github}</p>
         </div>
     );
 }
