@@ -8,7 +8,7 @@ import 'components/Header.css';
 function Header () {
   return (
         <div className='header'>
-					<div className="flex">
+					<div className="flex flex-wrap">
 						<div className="flex-grow">
 							<h1>Harry Ganz</h1>
 							<h3>Web Developer | Programmer</h3>
