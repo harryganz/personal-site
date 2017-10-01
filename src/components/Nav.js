@@ -8,7 +8,6 @@ function Nav() {
   return (
       <ul className="nav">
         <NavItem to="/">Home</NavItem>
-        <NavItem to="/about">About</NavItem>
       </ul>
     );
 }
