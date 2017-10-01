@@ -9,7 +9,7 @@ function ProjectGallery({projects}) {
 			);
 
 	return (
-			<div className="project-gallery flex">
+			<div className="project-gallery flex flex-wrap">
 				{projectCards}
 			</div>
 		)

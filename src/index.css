@@ -27,12 +27,22 @@ html, body {
 }
 
 body {
-	font: 16px Source-Sans, sans-serif;
+	font: 12px Source-Sans, sans-serif;
+}
+
+@media screen and (min-width: 1000px) {
+	body {
+		font-size: 16px;
+	}
 }
 
 .flex {
 	display: flex;
 	width: 100%;
+}
+
+.flex-wrap {
+	flex-flow: row wrap;
 }
 
 .flex-grow {
