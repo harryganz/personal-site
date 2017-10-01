@@ -3,8 +3,6 @@ import { connect } from 'react-redux';
 
 import ProjectItem from 'components/ProjectItem';
 
-import 'components/ProjectGallery.css';
-
 function ProjectGallery({projects}) {
 	let projectCards = projects.map((project, index) =>
 			<ProjectItem project={project} key={index} />
@@ -12,7 +10,10 @@ function ProjectGallery({projects}) {
 
 	return (
 			<div className="project-gallery">
-				{projectCards}
+				<h3>Projects</h3>
+				<div className="flex flex-wrap">
+					{projectCards}
+				</div>
 			</div>
 		)
 }
