@@ -3,15 +3,13 @@ import { connect } from 'react-redux';
 
 import ProjectItem from 'components/ProjectItem';
 
-import 'components/ProjectGallery.css';
-
 function ProjectGallery({projects}) {
 	let projectCards = projects.map((project, index) =>
 			<ProjectItem project={project} key={index} />
 			);
 
 	return (
-			<div className="project-gallery">
+			<div className="project-gallery flex">
 				{projectCards}
 			</div>
 		)
