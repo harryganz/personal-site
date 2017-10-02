@@ -41,6 +41,10 @@ body {
 	width: 100%;
 }
 
+.flex-around {
+	justify-content: space-around;
+}
+
 .flex-wrap {
 	flex-flow: row wrap;
 }
