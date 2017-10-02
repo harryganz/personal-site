@@ -1,20 +1,23 @@
 .project {
 	position: relative;
 	border: 0.125em solid #ddd;
-	padding: 0.5em 0.5em 2em 0.5em;
+	padding: 1em 1em 2em 1em;
 	width: 16.875em;
 	margin: 1em;
 }
 
 .crop {
-	width: 15.625em;
-	height: 15.625em;
+	display: inline-block;
+	text-align: center;
+	width: 16em;
+	height: 16em;
+	margin: 0 0.4375em;
 	overflow: hidden;
 }
 
 .crop img {
+	width: 100%;
 	height: auto;
-	width: 15.625em;
 }
 
 .project .github-link {

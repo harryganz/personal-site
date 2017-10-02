@@ -7,10 +7,31 @@
 		"description":"Simon says game written in Python for the Raspberry Pi"
 	},
 	{
+		"title": "diamonds",
+		"img_url": "/img/project_diamonds.jpg",
+		"url": "https://github.com/harryganz/diamonds",
+		"github": "harryganz/diamonds",
+		"description": "Diamond price scraper written in Go"
+	},
+	{
+		"title": "annhilation",
+		"img_url": "/img/project_annihilation.jpg",
+		"url": "http://annihilation.herokuapp.com",
+		"github": "harryganz/annihilation",
+		"description": "Web-based multiplayer game I made while at General Assembly"
+	},
+	{
+		"title": "rvc_rails",
+		"img_url": "/img/project_rvc_rails.jpg",
+		"url": "https://grunt.sefsc.noaa.gov/rvc_analysis20/",
+		"github": "jeremiaheb/rvc_rails",
+		"description": "Ruby on rails back-end for rvcstats package"
+	},
+	{
 		"title":"rvcstats",
 		"img_url":"/img/project_rvcstats.jpg",
 		"url":"https://github.com/harryganz/rvcstats",
-		"github":"harryganz/rvcstats",
+		"github":"jeremiaheb/rvcstats",
 		"description":"R package to compute summary statistics for South Florida Reef Visual Census"
 	}
 ]	
