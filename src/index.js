@@ -7,6 +7,7 @@ import store, { history } from 'store'
 import registerServiceWorker from './registerServiceWorker';
 
 import Home from 'components/Home';
+import Resume from 'components/Resume';
 
 import './index.css';
 import 'fonts/FontAwesome/css/font-awesome.css';
@@ -16,6 +17,7 @@ ReactDOM.render(
       <ConnectedRouter history={history}>
         <div>
           <Route exact path="/" component={Home} />
+					<Route exact path="/resume" component={Resume} />
         </div>
       </ConnectedRouter>
     </Provider>,
