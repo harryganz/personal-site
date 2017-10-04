@@ -1,6 +1,7 @@
 import React from 'react';
 
 import DefaultLayout from 'components/DefaultLayout';
+import LinearResumeList from 'components/LinearResumeList';
 import LinearResumeItem from 'components/LinearResumeItem';
 
 import 'components/LinearResumeItem.css';
@@ -10,26 +11,15 @@ function Resume() {
 				<DefaultLayout>
 					<div>
 						<h3>Programming Languages and Frameworks</h3>
-						<div className="linear-resume-list">
-							<p className="title">Languages</p> 
-							<div className="list">
-								<LinearResumeItem>Go</LinearResumeItem>
-								<LinearResumeItem>Python</LinearResumeItem>
-								<LinearResumeItem>Ruby</LinearResumeItem>
-								<LinearResumeItem>Java</LinearResumeItem>
-								<LinearResumeItem>Javascript</LinearResumeItem>
-								<LinearResumeItem>R</LinearResumeItem>
-							</div>
-						</div>
-						<div className="linear-resume-list">
-							<p className="title">Back-End</p>
-							<div className="list">
-								<LinearResumeItem>Ruby-on-Rails</LinearResumeItem>
-								<LinearResumeItem>NodeJS</LinearResumeItem>
-								<LinearResumeItem>Spring</LinearResumeItem>
-								<LinearResumeItem>Jekyll</LinearResumeItem>
-							</div>
-						</div>
+						<LinearResumeList
+							title="Languages"
+							items={ ['Go', 'Python', 'Ruby', 'Java', 'Javascript', 'R'] }
+						/>
+						<LinearResumeList
+							title="Back-End"
+							items={ ['Ruby-on-Rails', 'NodeJS', 'Spring', 'Jekyll'] }
+						/>
+						
 						<div className="linear-resume-list">
 							<p className="title">Front-End</p>
 							<div className="list">

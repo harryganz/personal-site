@@ -4,12 +4,4 @@
 .linear-resume-item:before {
 	content: " | "
 }
-.linear-resume-list .title {
-	font-weight: bold;
-}
-.linear-resume-list .title:after {
-	content: ":";
-}
-.linear-resume-list .list {
-	text-indent: 1.5em;
-}
+
