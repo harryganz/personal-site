@@ -1,7 +1,7 @@
-.piped:first-child:before {
+.linear-resume-item:first-child:before {
 	content: ""
 }
-.piped:before {
+.linear-resume-item:before {
 	content: " | "
 }
 .linear-resume-list .title {

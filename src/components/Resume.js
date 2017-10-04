@@ -1,6 +1,8 @@
 import React from 'react';
 
 import DefaultLayout from 'components/DefaultLayout';
+import LinearResumeItem from 'components/LinearResumeItem';
+
 import 'components/LinearResumeItem.css';
 
 function Resume() {
@@ -11,39 +13,39 @@ function Resume() {
 						<div className="linear-resume-list">
 							<p className="title">Languages</p> 
 							<div className="list">
-								<span className="piped">Go</span>
-								<span className="piped">Python</span>
-								<span className="piped">Ruby</span>
-								<span className="piped">Java</span>
-								<span className="piped">Javascript</span>
-								<span className="piped">R</span>
+								<LinearResumeItem>Go</LinearResumeItem>
+								<LinearResumeItem>Python</LinearResumeItem>
+								<LinearResumeItem>Ruby</LinearResumeItem>
+								<LinearResumeItem>Java</LinearResumeItem>
+								<LinearResumeItem>Javascript</LinearResumeItem>
+								<LinearResumeItem>R</LinearResumeItem>
 							</div>
 						</div>
 						<div className="linear-resume-list">
 							<p className="title">Back-End</p>
 							<div className="list">
-								<span className="piped">Ruby-on-Rails</span>
-								<span className="piped">NodeJS</span>
-								<span className="piped">Spring</span>
-								<span className="piped">Jekyll</span>
+								<LinearResumeItem>Ruby-on-Rails</LinearResumeItem>
+								<LinearResumeItem>NodeJS</LinearResumeItem>
+								<LinearResumeItem>Spring</LinearResumeItem>
+								<LinearResumeItem>Jekyll</LinearResumeItem>
 							</div>
 						</div>
 						<div className="linear-resume-list">
 							<p className="title">Front-End</p>
 							<div className="list">
-								<span className="piped">React</span>
-								<span className="piped">JQuery</span>
-								<span className="piped">Angular</span>
-								<span className="piped">Dojo</span>
+								<LinearResumeItem>React</LinearResumeItem>
+								<LinearResumeItem>JQuery</LinearResumeItem>
+								<LinearResumeItem>Angular</LinearResumeItem>
+								<LinearResumeItem>Dojo</LinearResumeItem>
 							</div>
 						</div>
 						<div className="linear-resume-list">
 							<p className="title">Other</p>
 							<div className="list">
-								<span className="piped">Docker</span>
-								<span className="piped">Webpack</span>
-								<span className="piped">CSS</span>
-								<span className="piped">Sass</span>
+								<LinearResumeItem>Docker</LinearResumeItem>
+								<LinearResumeItem>Webpack</LinearResumeItem>
+								<LinearResumeItem>CSS</LinearResumeItem>
+								<LinearResumeItem>Sass</LinearResumeItem>
 							</div>
 						</div>
 					</div>
