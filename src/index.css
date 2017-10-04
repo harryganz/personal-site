@@ -54,6 +54,25 @@ body {
 	flex-shrink: 0;
 }
 
+.flex-two-col {
+	flex-flow: row wrap;
+}
+
+.flex-two-col > div {
+	padding: 0 1em;
+}
+
+@media screen and (min-width: 1000px) {
+
+	.flex-two-col {
+		flex-flow: nowrap;
+	}
+
+	.flex-two-col > div {
+		width: 50%;
+	}
+}
+
 h1, h3 {
 	font-family: Catamaran, sans-serif;
 }
