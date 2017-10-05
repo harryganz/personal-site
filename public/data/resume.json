@@ -1,0 +1,20 @@
+{
+	"skills": [
+		{
+			"title": "Languages",
+			"items": ["Go", "Python", "Ruby", "Java", "Javascript", "R"]
+		},
+		{
+			"title": "Back-End",
+			"items": ["Ruby-on-Rails", "NodeJS", "Spring", "Jekyll"]
+		},
+		{
+			"title": "Front-End",
+			"items": ["React", "JQuery", "Angular", "Dojo"]
+		},
+		{
+			"title": "Other",
+			"items": ["Docker", "Webpack", "CSS", "Sass"]
+		}
+	]
+}
