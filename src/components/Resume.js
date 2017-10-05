@@ -6,9 +6,7 @@ import actions from 'actions';
 
 import DefaultLayout from 'components/DefaultLayout';
 import Skills from 'components/Skills';
-
-import 'components/VerticalResumeListItem.css';
-
+import VerticalResumeListItem from 'components/VerticalResumeListItem';
 
 class Resume extends Component {
   constructor(props) {
@@ -23,15 +21,19 @@ class Resume extends Component {
 						<div className="Experience">
 							<h3>Experience</h3>
 							<div className="vertical-resume-list">
-								<div className="vertical-resume-item">
-									<p>2016 - Present</p>
-									<div>
-										<p className="title">Associate Software Developer at Gartner</p>
-										<ul>
-											<li>Developed internally facing web applications including sales tools and business intelligence software</li>
-										</ul>
-									</div>
-								</div>
+								<VerticalResumeListItem 
+									title="Associate Software Developer at Gartner"
+									startDate="2016"
+									endDate="Present"
+									items={ ['Developed internally facing web applications ' +
+										'including sales tools and business intelligence software'] }
+								/>
+								<VerticalResumeListItem
+									title="Scientist at National Oceanic and Atmoshperic Association"
+									startDate="2014"
+									endDate="2016"
+									items={ ['Developed R application for analyzing visual census data of reef fish', 'Created Ruby on Rails back end for reef visual census data'] }
+								/>
 							</div>
 						</div>
           </DefaultLayout>
