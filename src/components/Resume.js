@@ -26,7 +26,7 @@ class Resume extends Component {
 								<div className="vertical-resume-item">
 									<p>2016 - Present</p>
 									<div>
-										<p>Associate Software Developer at Gartner</p>
+										<p className="title">Associate Software Developer at Gartner</p>
 										<ul>
 											<li>Developed internally facing web applications including sales tools and business intelligence software</li>
 										</ul>
