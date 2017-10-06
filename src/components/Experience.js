@@ -1,26 +1,10 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import VerticalResumeListItem from 'components/VerticalResumeListItem';
+import VerticalResumeList from 'components/VerticalResumeList';
 
 function Experience({ title, experience }) {
-	let resumeListItems = experience.map((item, index) =>
-			<VerticalResumeListItem
-				title={ item.title }
-				startDate={ item.startDate }
-				endDate={ item.endDate }
-				items={ item.items }
-				key={ index }
-			/>);
-
-	return (
-			<div className="experience">
-				<h3>{ title }</h3>
-				<div className="vertical-resume-list">
-					{ resumeListItems }
-				</div>
-			</div>
-		);
+	return <VerticalResumeList title={ title } verticalResumeList={ experience } />;
 }
 
 function mapStateToProps({ resume }) {
