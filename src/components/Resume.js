@@ -7,6 +7,7 @@ import actions from 'actions';
 import DefaultLayout from 'components/DefaultLayout';
 import Skills from 'components/Skills';
 import Experience from 'components/Experience';
+import Education from 'components/Education';
 
 class Resume extends Component {
   constructor(props) {
@@ -19,6 +20,7 @@ class Resume extends Component {
           <DefaultLayout>
             <Skills title="Programming Languages and Frameworks" />
 						<Experience title="Experience" />
+						<Education title="Education" />
 					</DefaultLayout>
         );
   }
