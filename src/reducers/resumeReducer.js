@@ -2,6 +2,8 @@ export default function resume(currentState, action) {
   currentState = currentState || {
     resume: {
       skills: [],
+			experience: [],
+			education: [],
     },
     isFetching: false,
     error: "",
