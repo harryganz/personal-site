@@ -16,5 +16,21 @@
 			"title": "Other",
 			"items": ["Docker", "Webpack", "CSS", "Sass"]
 		}
+	],
+	"experience": [
+		{
+			"title": "Associate Software Developer at Gartner",
+			"startDate": "2016",
+			"endDate": "Present",
+			"items": ["Developed internally facing web applications including sales tools and business intelligence software"]
+		},
+		{
+			"title": "Scientist at the National Oceanic and Atmospheric Administration",
+			"startDate": "2014",
+			"endDate": "2016",
+			"items": [
+				"Developed R application for analyzing visual census data of reef fish",
+				"Created Ruby on Rails back end for reef visual census data"
+		}
 	]
 }
