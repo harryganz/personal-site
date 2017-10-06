@@ -1,0 +1,7 @@
+.linear-resume-item:first-child:before {
+	content: ""
+}
+.linear-resume-item:before {
+	content: " | "
+}
+

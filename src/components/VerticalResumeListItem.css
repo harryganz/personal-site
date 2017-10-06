@@ -1,0 +1,9 @@
+.vertical-resume-item > * {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 1em;
+}
+
+.vertical-resume-item .title {
+	font-weight: bold;
+}

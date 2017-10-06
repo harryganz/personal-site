@@ -1,0 +1,13 @@
+.flex-two-col {
+	flex-flow: row wrap;
+}
+
+.flex-two-col > div {
+	padding: 0 1em;
+}
+
+@media screen and (min-width: 1000px) {
+	.flex-two-col {
+		flex-flow: nowrap;
+	}
+}
