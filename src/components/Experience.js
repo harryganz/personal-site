@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'react-redux';
 
 import VerticalResumeListItem from 'components/VerticalResumeListItem';
 
@@ -22,5 +23,11 @@ function Experience({ title, experience }) {
 		);
 }
 
-export default Experience;
+function mapStateToProps({ resume }) {
+	return {
+		experience: resume.resume.experience,
+	};
+}
+
+export default connect(mapStateToProps)(Experience);
 
