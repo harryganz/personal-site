@@ -3,6 +3,7 @@ export default function resume(currentState, action) {
     resume: {
       skills: [],
 			experience: [],
+			education: [],
     },
     isFetching: false,
     error: "",
