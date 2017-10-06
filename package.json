@@ -1,7 +1,7 @@
 {
   "name": "personal-site",
-  "version": "0.1.0",
-	"homepage": "http://www.harryganz.com.s3-website-us-east-1.amazonaws.com/",
+  "version": "1.0.0",
+	"homepage": "https://harryganz.com",
   "private": true,
   "dependencies": {
     "autoprefixer": "7.1.2",
