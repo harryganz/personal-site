@@ -6,8 +6,7 @@ function VerticalResumeList({ title, verticalResumeList }) {
 	let resumeListItems = verticalResumeList.map((item, index) =>
 			<VerticalResumeListItem
 				title={ item.title }
-				startDate={ item.startDate }
-				endDate={ item.endDate }
+        caption={ item.caption }
 				items={ item.items }
 				key={ index }
 			/>);
