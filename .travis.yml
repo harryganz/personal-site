@@ -20,7 +20,7 @@ deploy:
   local_dir: build
   cache_control: "max-age=21600"
 after_deploy:
-  - aws cloudfront create-invalidation --distribution-id $AWS_CLOUDFRONT_DISTRIBUTION_ID --paths /*
+  - aws cloudfront create-invalidation --distribution-id $AWS_CLOUDFRONT_DISTRIBUTION_ID --paths '/*'
 branches:
   only:
     - master
