@@ -2,10 +2,13 @@ language: node_js
 node_js:
   - "8"
   - "7"
-before_script: 
+before_script:
   - CI=true && npm test
 script:
   - npm run build 
+before_deploy:
+  - pip install awscli --upgrade --user
+  - aws s3 rm s3://www.harryganz.com --recursive --only-show-errors
 deploy:
   on:
     branch: master
@@ -16,6 +19,8 @@ deploy:
   skip_cleanup: true
   local_dir: build
   cache_control: "max-age=21600"
+after_deploy:
+  - aws cloudfront create-invalidation --distribution-id $AWS_CLOUDFRONT_DISTRIBUTION_ID --paths /*
 branches:
   only:
     - master
