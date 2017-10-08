@@ -2,11 +2,11 @@ import React from 'react';
 
 import 'components/VerticalResumeListItem.css'
 
-function VerticalResumeListItem({ startDate, endDate, title, items }) {
+function VerticalResumeListItem({ caption, title, items }) {
 	let listItems = items.map((item, index) => <li key={ index }>{ item }</li>);
 	return (
 			<div className="vertical-resume-item">
-				<p>{ startDate } -  { endDate }</p>
+				<p className="resume-caption">{ caption }</p>
 				<div>
 					<p className="title">{ title }</p>
 					<ul>
@@ -16,6 +16,12 @@ function VerticalResumeListItem({ startDate, endDate, title, items }) {
 			</div>
 		);
 }
+
+VerticalResumeListItem.defaultProps = {
+  caption: '',
+  title: '',
+  items: [],
+};
 
 export default VerticalResumeListItem;
 
