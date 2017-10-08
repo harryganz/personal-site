@@ -19,6 +19,13 @@
 	font-style: italic;
 }
 
+@font-face {
+	font-family: Source-Sans;
+	src: url("fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf");
+	font-weight: bold;
+	font-style: normal;
+}
+
 html, body {
 	margin: 0;
 	padding: 0;
@@ -65,10 +72,6 @@ h1 {
 h3 {
 	font-size: 1.5em;
 	color: #DD4433;
-}
-
-.caption {
-	font-style: italic;
 }
 
 .no-wrap {

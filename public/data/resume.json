@@ -6,7 +6,7 @@
 		},
 		{
 			"title": "Back-End",
-			"items": ["Ruby-on-Rails", "NodeJS", "Spring", "Jekyll"]
+			"items": ["Ruby-on-Rails", "NodeJS", "Spring", "Jekyll", "SQL", "Redis", "MongoDB"]
 		},
 		{
 			"title": "Front-End",
@@ -14,14 +14,14 @@
 		},
 		{
 			"title": "Other",
-			"items": ["Docker", "Webpack", "CSS", "Sass"]
+			"items": ["Docker", "Webpack", "CSS", "Sass", "AWS"]
 		}
 	],
 	"experience": [
 		{
 			"title": "Associate Software Developer at Gartner",
 			"caption": "2016 - Present",
-			"items": ["Developed internally facing web applications including sales tools and business intelligence software"]
+			"items": ["Developed internally facing web applications, including sales tools and business intelligence software"]
 		},
 		{
 			"title": "Scientist at the National Oceanic and Atmospheric Administration",
@@ -33,6 +33,14 @@
 		}
 	],
 	"education": [
+		{
+			"title": "General Assembly, New York",
+			"caption": "2016",
+			"items": [
+				"Bootcamp for Web Development",
+				"Developed web applications in NodeJS and Ruby"
+			]
+		},
 		{
 			"title": "M.P.S. University of Miami",
 			"caption": "2013 - 2015",
