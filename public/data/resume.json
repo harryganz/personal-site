@@ -43,5 +43,15 @@
 			"caption": "2009 - 2013",
 			"items": ["Majored in Ecology and Evolutionary Biology"]
 		}
+	],
+	"languages": [
+		{
+			"title": "English",
+			"caption": "Fluent"
+		},
+		{
+			"title": "Hebrew",
+			"caption": "Conversational"
+		}
 	]
 }

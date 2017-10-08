@@ -7,3 +7,7 @@
 .vertical-resume-item .title {
 	font-weight: bold;
 }
+
+.vertical-resume-item .caption {
+	width: 10em;
+}

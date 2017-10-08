@@ -6,7 +6,7 @@ function VerticalResumeListItem({ caption, title, items }) {
 	let listItems = items.map((item, index) => <li key={ index }>{ item }</li>);
 	return (
 			<div className="vertical-resume-item">
-				<p>{ caption }</p>
+				<p className="caption">{ caption }</p>
 				<div>
 					<p className="title">{ title }</p>
 					<ul>
