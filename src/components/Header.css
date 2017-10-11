@@ -2,3 +2,17 @@
 	border-bottom: 2px solid #ddd;
 	margin-bottom: 1em;
 }
+
+.profile-pic {
+	margin-right: 1em;
+	height: 8em;
+}
+
+.profile-pic img {
+	height: 100%;
+	width: auto;
+}
+
+.inline {
+	display: inline-block;
+}
