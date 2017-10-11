@@ -11,7 +11,7 @@ function Header () {
 					<div className="flex flex-wrap">
 						<div className="flex-grow">
               <div className="profile-pic inline">
-                <img src="/img/harryganz_profile.jpg" alt="harry_profile" />
+                <img src="/img/harryganz_profile.png" alt="harry_profile" />
               </div>
               <div className="inline">
                 <h1>Harry Ganz</h1>
